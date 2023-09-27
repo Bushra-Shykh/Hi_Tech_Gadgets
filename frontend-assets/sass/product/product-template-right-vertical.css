@@ -1,0 +1,139 @@
+.product-layout-right-vertical {
+  padding: 0px 0px 36px;
+}
+
+.product-layout-right-vertical .breadcrumb {
+  padding: 20px 0px 30px;
+}
+
+.product-layout-right-vertical .halo-productView-right .productView-title {
+  margin: 0;
+}
+
+.product-layout-right-vertical .halo-productView-right .productView-rating .spr-badge-starrating {
+  position: relative;
+  top: 1px;
+}
+
+.product-layout-right-vertical .halo-product-block {
+  clear: both;
+  padding: 10px 0px 15px;
+}
+
+.product-layout-right-vertical .halo-product-block .product-header {
+  padding: 17px 0px 0px;
+}
+
+.product-layout-right-vertical .halo-product-block .product-header .title {
+  font-size: 18px;
+  letter-spacing: .02em;
+  font-weight: 600;
+  color: #232323;
+}
+
+.product-layout-right-vertical .halo-product-block.related-products {
+  background: #f8f8f8;
+}
+
+.product-layout-right-vertical .halo-product-block.related-products .product-header {
+  padding: 30px 0px 12px;
+}
+
+.product-layout-right-vertical .halo-product-block.related-products .product-item .product-card {
+  background: #ffffff;
+  padding: 10px;
+  padding-bottom: 0 !important;
+}
+
+.product-layout-right-vertical .custom-review {
+  padding: 57px 0px 30px;
+}
+
+.product-layout-right-vertical .custom-review .review-title {
+  font-size: 18px;
+  letter-spacing: .02em;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .product-layout-right-vertical .halo-product-block.related-products {
+    padding: 26px 0px 58px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .product-layout-right-vertical .productView-information .halo-productView-right {
+    width: 500px;
+    padding-left: 60px;
+    padding-top: 15px;
+  }
+  .product-layout-right-vertical .productView-information .halo-productView-left {
+    width: calc(100% - 515px);
+    margin-right: 15px;
+  }
+  .product-layout-right-vertical .productView-information .halo-productView-left .productView-image img {
+    width: 100%;
+  }
+  .product-layout-right-vertical .halo-product-block {
+    margin-top: 0;
+  }
+  .product-layout-right-vertical .halo-product-block.related-products {
+    margin-top: 40px;
+  }
+  .product-layout-right-vertical .halo-product-block.related-products .product-item .product-card {
+    padding: 15px;
+  }
+  .product-layout-right-vertical .productView-securityImage {
+    margin-bottom: 0;
+  }
+  .product-layout-right-vertical .halo-productView-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .product-layout-right-vertical .halo-productView-left .productView-images-wrapper {
+    width: calc(100% - 80px);
+    margin-right: 20px;
+  }
+  .product-layout-right-vertical .halo-productView-left .productView-thumbnail-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .product-layout-right-vertical .halo-productView-left .productView-thumbnail-wrapper .productView-for {
+    padding: 0px;
+  }
+  .product-layout-right-vertical .halo-productView-left .productView-thumbnail-wrapper .productView-thumbnail {
+    padding: 0px;
+  }
+  .product-layout-right-vertical .halo-productView-left .productView-thumbnail-wrapper .slick-arrow {
+    background: transparent;
+  }
+  .product-layout-right-vertical .halo-productView-left .productView-thumbnail-wrapper .slick-arrow.slick-prev {
+    top: -38px !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%) rotate(90deg);
+            transform: translate(-50%) rotate(90deg);
+  }
+  .product-layout-right-vertical .halo-productView-left .productView-thumbnail-wrapper .slick-arrow.slick-next {
+    top: auto !important;
+    left: 50%;
+    right: auto;
+    bottom: -28px;
+    -webkit-transform: translate(-50%) rotate(90deg);
+            transform: translate(-50%) rotate(90deg);
+  }
+}
+/*# sourceMappingURL=product-template-right-vertical.css.map */

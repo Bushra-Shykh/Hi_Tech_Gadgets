@@ -1,0 +1,110 @@
+.link_title{
+    font-size: 14px;
+    font-weight: 400;
+}
+#videobg {
+    background: url(video.jpg) no-repeat;
+    background-size: cover;
+  }
+  .product-card{
+    padding: 10px;
+  }
+  .product-card:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  .view_all.capitalize{
+    background-color: #f03333;
+    color: #fff !important;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  /************************* CUSTOM IPHONE VIDEO CSS******************************/
+  
+.custsom-video-header {
+    position: relative;
+    display: flex;
+    height: 100vw;
+    max-height: 65vh;
+    background: #000;
+    overflow: hidden;
+  }
+  .custsom-video-header__background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    height: 0;
+    padding-bottom: 66.25%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  .custsom-video-header__video-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: opacity 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), visibility 0.5s linear;
+  }
+  .custsom-video-header__video-overlay--fadeOut {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .custsom-video-header iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .custsom-video-header__title {
+    position: relative;
+    flex: 0 0 auto;
+    align-self: center;
+    width: 100%;
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    line-height: 1;
+  }
+  /************************* CUSTOM IPHONE VIDEO CSS END******************************/
+
+  .header-button:link, .header-button:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .header-button:hover, .header-button:active {
+    background-color: red;
+  }
+  .marquee-shop-now-button{
+    background-color: transparent;
+    color:#051c42;
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #051c42;
+
+}
+.marquee-shop-now-button:hover{
+  background-color: #051c42;
+  color: #fff;
+  transition: 0.3s;
+}
+@media (max-width: 768px){
+  .halo-block-five-banner .halo-row-item{
+    margin: 0px auto Im !important;
+  }
+}
